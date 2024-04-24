@@ -1,5 +1,4 @@
 def CalcularDerivadaAproximada(f, x, delta):
-
     f_superior = f(x + delta)
     f_inferior = f(x - delta)
 

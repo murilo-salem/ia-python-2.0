@@ -1,10 +1,11 @@
 import scipy.constants as const
 
-def TempoQueda(H):
 
+def TempoQueda(H):
     G = const.g
     T = (2 * H / G) ** 0.5
     return T
+
 
 # Test cases
 TestCase = [1, 10, 0, -1]
